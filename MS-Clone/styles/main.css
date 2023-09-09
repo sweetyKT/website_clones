@@ -1,0 +1,274 @@
+/* Hero section */
+.hero-section {
+    background-image: url("../images/ms-hero-image.avif");
+    height: 595px;
+    width: 1893px;
+    margin-left: 5px;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    margin-right: 980px;
+}
+
+.hero-content .ms-365-text {
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.hero-content button {
+    background-color: #0067B8;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    height: 40px;
+    width: 138px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 12px;
+}
+
+.hero-content button:hover {
+    cursor: pointer;
+    background-color: #085ea0;
+    box-shadow: 0px 1px 5px rgba(31, 30, 30, 0.323);
+}
+
+.hero-content .ms-end-text {
+    font-weight: 500;
+    margin-left: 20px;
+
+    display: inline;
+}
+
+.hero-content .ms-end-text:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.hero-content .chevron-right {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.below-hero {
+    margin-top: 25px;
+    margin-left: 850px;
+    width: 200px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.below-hero i:hover {
+    cursor: pointer;
+}
+
+.below-hero .circle:hover {
+    cursor: default;
+}
+
+.below-hero .circle-pause {
+    font-size: 1.1rem;
+}
+
+.below-hero .circle-pause:hover {
+    font-weight: 700;
+}
+
+.below-hero .circle {
+    font-size: 10px;
+}
+
+/* For some general options */
+.icon-display {
+    margin-top: 75px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.icon-content {
+    margin-right: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-content p {
+    color: #0067B8;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.icon-content p:hover {
+    cursor: pointer;
+}
+
+/* For first and last main display content */
+.display-content-top .cursor-on, .display-content-bottom .cursor-on {
+    cursor: pointer;
+}
+
+.display-content-top i, .display-content-bottom i {
+    margin-left: 6px;
+}
+
+.display-content-top, .display-content-bottom {
+    margin-top: 60px;
+
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.display-content-top img, .display-content-bottom img {
+    margin-bottom: -20px;
+    height: 214px;
+    width: 382px;
+}
+
+.display-content-top .text-top, .display-content-bottom .text-top {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: -2px;
+}
+
+.display-content-top .text-bottom, .display-content-bottom .text-bottom {
+    margin-top: 25px;
+    color: #0067B8;
+    font-weight: 500;
+}
+
+.display-content-top .text-bottom:hover, .display-content-bottom .text-bottom:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.display-content-top i, .display-content-bottom i {
+    font-size: 14px;
+}
+
+.display-content-top .text-bottom-end {
+    margin-top: -1px;
+}
+
+/* Styling for the banner section */ 
+.banner-area {
+    background-image: url("../images/main-image.jpeg");
+    height: 600px;
+    width: 1594px;
+    margin-left: 160px;
+    margin-top: 90px;
+
+    display: flex;
+}
+
+.banner-area:hover {
+    cursor: pointer;
+}
+
+.banner-area .banner-msg {
+    margin-left: 130px;
+    margin-top: 150px;    
+    color: white;
+}
+
+.banner-area .banner-msg .banner-top {
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.banner-area .banner-msg .banner-mid {
+    margin-top: -18px;
+}
+
+.banner-area .banner-msg button {
+    background-color: #0067B8;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    height: 40px;
+    width: 189px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 12px;
+}
+
+.banner-area .banner-msg button:hover {
+    cursor: pointer;
+    background-color: #085ea0;
+    box-shadow: 0px 1px 5px rgba(31, 30, 30, 0.323);
+}
+
+/* Some more styles for the last content */
+.content-bottom .bottom-heading {
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-top: 90px;
+    margin-left: 160px;
+}
+
+.display-content-bottom {
+    margin-top: -26px;
+}
+
+/* Styling for following social media */
+.socials {
+    margin-left: 170px;
+    margin-top: 55px;
+
+    display: flex;
+    gap: 15px;
+}
+
+.socials img {
+    height: 32px;
+    margin-top: 12px;
+}
+
+.socials img:hover {
+    cursor: pointer;
+}
+
+.top-button {
+    position: relative;
+}
+
+.top-button button {
+    position: absolute;
+    right: 12px;
+
+    font-weight: 500;
+    height: 40px;
+    width: 136px;
+    background-color: rgba(0, 0, 0, .15);
+    border: none;
+    border-radius: 2px;
+}
+
+.top-button button i {
+    margin-right: 5px;
+}
+
+.top-button button p {
+    margin-top: 12px;
+    font-size: 0.96rem;
+    font-weight: 550;
+}
+
+.top-button button:hover {
+    cursor: pointer;
+    background-color: #FFFFFF;
+
+    box-shadow: .5px .5px 5px rgba(189, 178, 178, 0.639);
+}

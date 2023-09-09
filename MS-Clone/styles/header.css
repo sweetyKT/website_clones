@@ -1,0 +1,98 @@
+/* Navigation panel */
+header {
+    display: flex;
+    height: 55px;
+    color: #262626;
+    font-size: 14px;
+}
+
+/* Left section of navigation panel */
+.left-section {
+    margin-left: 160px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ms-icon {
+    height: 23px;
+    cursor: pointer;
+}
+
+/* Mid-section of navigation panel */
+.middle-section {
+    margin-right: 600px;
+}
+
+.middle-section ul {
+    list-style-type: none;
+    margin-top: 20px;
+
+    display: flex;
+}
+
+.middle-section ul li {
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.middle-section ul li:hover {
+    border-bottom: 2px solid black;
+}
+
+/* Right section of navigation panel */
+.right-content {
+    margin-top: 4px;
+
+    display: flex;
+    gap: 22px;
+}
+
+.right-content div {
+    display: flex;
+}
+
+.right-content div:hover {
+    cursor: pointer;
+}
+
+.right-content {
+    margin-right: 18px;
+}
+
+.right-content p:hover {
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+.right-content .chevron-down {
+    font-size: 9px;
+    margin-top: 23px;
+}
+
+.right-content .search-icon {
+    margin-top: 18px;
+    margin-right: 12px;
+}
+
+.right-content .cart-icon {
+    margin-top: 18px;
+}
+
+.right-content .sign-in {
+    margin-right: 10px;
+}
+
+.right-content .sign-in:hover {
+    border-bottom: none;
+}
+
+.right-content .sign-in-icon {
+    margin-top: 10px;
+}
+
+.right-content img {
+    height: 30px;
+    margin-top: -15px;
+}

@@ -1,0 +1,99 @@
+footer {
+    background-color: #F2F2F2;
+}
+
+.footer-top {
+    height: 316px;
+    margin-top: 100px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.footer-top ul, .footer-bottom .lang, .footer-bottom .privacy {
+    list-style: none;
+    color: #616161;
+    font-size: 11px;
+    line-height: 3;
+    margin-top: 28px;
+    margin-right: 135px;
+}
+
+.footer-top ul li:hover, .footer-bottom .privacy:hover, .footer-bottom .right p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #000000;
+}
+
+.footer-top ul .list-top:hover {
+    text-decoration: none;
+    cursor:text;
+    color: #616161;
+}
+
+.footer-top ul .list-top {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 2;
+}
+
+.footer-top .business-list {
+    margin-left: -95px;
+}
+
+.footer-bottom {
+    display: flex;
+    gap: 650px;
+}
+
+.footer-bottom .left {
+    margin-left: 150px;
+}
+
+.footer-bottom .left i {
+    color: #575454;
+    font-size: 1.3rem;
+}
+
+.footer-bottom .left, .footer-bottom .right {
+    display: flex;
+    align-items: center;
+}
+
+.footer-bottom .right {
+    gap: 30px;
+
+    margin-top: 12px;
+}
+
+.footer-bottom .privacy {
+    color: #000000;
+}
+
+.footer-bottom .lang:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer-bottom img, .footer-bottom i {
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.footer-bottom img {
+    height: 15px;
+    margin-left: -110px;
+}
+
+.footer-bottom .right p {
+    list-style: none;
+    color: #616161;
+    font-size: 11px;
+    line-height: 3;
+}
+
+.footer-bottom .right .ms-copy:hover {
+    text-decoration: none;
+    cursor: text;
+    color: #616161;
+}
